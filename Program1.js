@@ -1,6 +1,4 @@
 // Program1) JavaScript program to filter Admin users from an array of objects and convert their names to uppercase
-
-
 let arrOfObjects = [
     {name: 'John', role:'Admin'}, 
     {name: 'Kate', role:'User'}, 
@@ -57,7 +55,6 @@ while(i < arrOfObjects.length){
     i++;
 }
 
-
 //Using do..while loop
 //do...while loop is a JavaScript loop that executes a block of code once first, then repeats it while a condition is true.
 console.log();
@@ -69,7 +66,6 @@ do{
     }
     k++;
 }while(k<arrOfObjects.length);
-
 
 //Using reduce
 //reduce() is a JavaScript array method that reduces an array to a single value by applying a function to each element one by one.
@@ -91,7 +87,6 @@ if(curr.role =="Admin"){
 return acc;
 }, []).join("\n");
 console.log(adminUser);
-
 
 //Using find()
 //find() is an array method used to return the first element that matches a condition
